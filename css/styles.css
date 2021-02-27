@@ -1,0 +1,23 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/friends.css";
+@import "components/user-components.css";
+
+/* L */
+
+@import "screens/login.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #2e363e;
+  height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
